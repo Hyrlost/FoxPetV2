@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "foxpet",
+  "version": "2",
+
+  "name": "Fox pet",
+  "description": "When you can have a fox as a pet legally.",
+  "authors": [
+    "Hyrlost"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod",
+    "discord": "Hyrlost#6321"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.foxpet.FoxPetMod"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
